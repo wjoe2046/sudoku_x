@@ -21,7 +21,7 @@ export default createGlobalStyle`
 
             #root {
                 background: radial-gradient(#282c34cc, #282c34);
-                color: '#282c34';
+                color: #282c34;
                 display: flex;
                 font-family: sans-serif;
                 height: 100%;
