@@ -1,8 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import { unregister } from './core';
+import { unregister } from './core'
+import { GlobalStyles } from './styles'
 
-ReactDOM.render(<div>Hello world</div>, document.getElementById('root'));
+ReactDOM.render(
+  <React.Fragment>
+    <GlobalStyles />
+    <div>Hello world</div>
+  </React.Fragment>,
+  document.getElementById('root')
+)
 
-unregister();
+unregister()
